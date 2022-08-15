@@ -1,0 +1,16 @@
+.btn-cta {
+    background-color: #F6D72F;
+    font-size: 20px;
+    padding: 10px 70px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(12, 9, 9);
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.btn-cta:hover {
+    background-color: greenyellow;
+}

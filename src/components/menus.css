@@ -1,0 +1,25 @@
+.container-menus {
+    background-color: white;
+    color: black;
+    margin: 50px auto;
+    width: 85%;
+    padding: 20px 30px;
+    border-radius: 7px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-menus {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .container-menus {
+        grid-template-columns: 100%;
+    }
+}

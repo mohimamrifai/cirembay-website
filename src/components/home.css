@@ -1,0 +1,25 @@
+.title {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.home_section {
+    margin: 200px 50px;
+    padding: 50px 100px;
+}
+
+span {
+    color: #F6D72F;
+}
+
+@media screen and (max-width: 428px ){
+    .title {
+        font-size: 3rem;
+    }
+
+    .home_section {
+        padding: 20px 20px;
+        margin: 150px 15px;
+    }
+}
